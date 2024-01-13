@@ -11,9 +11,9 @@ The app is built using **Java** and incorporates the following technologies:
 - **UI Design:** Material Design components for a clean and intuitive user interface.
 - **Image Loading:** Implemented Glide for effective handling and loading of images.
 
-## Retrofit Integration : 
+### Retrofit Integration : 
 
-### 1. API Communication
+#### 1. API Communication
 
 - **Retrofit Setup:**
   - Configured Retrofit to handle API requests and responses.
@@ -21,7 +21,7 @@ The app is built using **Java** and incorporates the following technologies:
 - **PHP/SQL Backend:**
   - Developed a backend using PHP and SQL to manage data.
 
-#### 2. Data Handling
+##### 2. Data Handling
 
 - **Data Retrieval:**
   - Utilized Retrofit to fetch exercise data from the PHP/SQL backend.
@@ -29,7 +29,7 @@ The app is built using **Java** and incorporates the following technologies:
 - **JSON Conversion:**
   - Transformed the retrieved data into JSON format for easier handling.
 
-### 3. Callback Implementation
+##### 3. Callback Implementation
 
 - **Callback Usage:**
   - Implemented callback functions to manage asynchronous data retrieval.
