@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/serach_back"
+        app:queryHint="Serach Here ..."
+        app:iconifiedByDefault="false"
+
+        android:visibility="gone"
+
+        />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        app:titleMarginStart="130dp"
+        app:title=" All Activities"
+        android:visibility="gone"
+        />
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_my"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        app:menu="@menu/toolbar"
+        app:title="My Activity"
+        android:visibility="gone"
+
+        />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_prev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        app:menu="@menu/toolbar"
+        app:title="Previous Result"
+        android:visibility="gone"
+
+        />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
