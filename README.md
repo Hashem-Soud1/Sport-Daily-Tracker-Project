@@ -8,7 +8,7 @@ The app is built using **Java** and incorporates the following technologies:
 
 - **Networking:**  Retrofit for  API integration with a PHP/SQL backend.
 - **Local Data Storage:** SharedPreferences for efficient local data handling.
-- **UI Design:** Material Design components for a clean and intuitive user interface.
+- **UI Design:** Material Design commponent and Dilaoge.
 - **Image Loading:** Implemented Glide for effective handling and loading of images.
 
 ### Retrofit Integration : 
