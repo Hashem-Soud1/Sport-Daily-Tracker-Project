@@ -4,11 +4,33 @@ This mobile app helps users perform daily exercises by allowing them to choose a
 
 ## Overview
 
-The app is built using ***Java*** and incorporates the following technologies:
+The app is built using **Java** and incorporates the following technologies:
 
-- **Networking:** Retrofit for API integration.
-- **Local Data Storage:** SharedPreferences.
-- **UI Design:** Material Design components.
-- **Image Loading:** Glide for efficient image handling.
+- **Networking:**  Retrofit for  API integration with a PHP/SQL backend.
+- **Local Data Storage:** SharedPreferences for efficient local data handling.
+- **UI Design:** Material Design components for a clean and intuitive user interface.
+- **Image Loading:** Implemented Glide for effective handling and loading of images.
 
-The app interacts with a local database created using **PHP** and **SQL** to manage user data. 
+## Retrofit Integration : 
+
+### 1. API Communication
+
+- **Retrofit Setup:**
+  - Configured Retrofit to handle API requests and responses.
+
+- **PHP/SQL Backend:**
+  - Developed a backend using PHP and SQL to manage data.
+
+#### 2. Data Handling
+
+- **Data Retrieval:**
+  - Utilized Retrofit to fetch exercise data from the PHP/SQL backend.
+
+- **JSON Conversion:**
+  - Transformed the retrieved data into JSON format for easier handling.
+
+### 3. Callback Implementation
+
+- **Callback Usage:**
+  - Implemented callback functions to manage asynchronous data retrieval.
+
