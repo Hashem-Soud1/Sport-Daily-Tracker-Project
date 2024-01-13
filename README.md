@@ -10,5 +10,5 @@ The app is built using ***Java*** and incorporates the following technologies:
 - **Local Data Storage:** SharedPreferences.
 - **UI Design:** Material Design components.
 - **Image Loading:** Glide for efficient image handling.
-- 
+
 The app interacts with a local database created using **PHP** and **SQL** to manage user data. 
